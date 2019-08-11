@@ -7,7 +7,7 @@ import { environment } from '@env/environment';
   templateUrl: './about.component.html',
   styleUrls: ['./about.component.scss']
 })
-export class AboutComponent implements OnInit {
+export class DebugComponent implements OnInit {
   version: string | null = environment.version;
 
   constructor() {}

@@ -1,10 +1,158 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd2f3c97-ef82-4333-80fd-e634dcbe862a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/e2e/protractor.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/e2e/protractor.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/e2e/src/app.e2e-spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/e2e/src/app.e2e-spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/e2e/src/page-objects/app-shared.po.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/e2e/src/page-objects/app-shared.po.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/e2e/src/page-objects/login.po.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/e2e/src/page-objects/login.po.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/e2e/src/page-objects/shell.po.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/e2e/src/page-objects/shell.po.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/about/about-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/about/about-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/about/about.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/about/about.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/about/about.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/about/about.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/about/about.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/about/about.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/about/about.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/about/about.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/app.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/authentication/authentication.guard.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/authentication/authentication.guard.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/authentication/authentication.guard.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/authentication/authentication.guard.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/authentication/authentication.service.mock.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/authentication/authentication.service.mock.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/authentication/authentication.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/authentication/authentication.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/authentication/authentication.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/authentication/authentication.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/authentication/credentials.service.mock.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/authentication/credentials.service.mock.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/authentication/credentials.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/authentication/credentials.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/authentication/credentials.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/authentication/credentials.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/core.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/core.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/http/api-prefix.interceptor.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/http/api-prefix.interceptor.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/http/api-prefix.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/http/api-prefix.interceptor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/http/cache.interceptor.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/http/cache.interceptor.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/http/cache.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/http/cache.interceptor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/http/error-handler.interceptor.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/http/error-handler.interceptor.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/http/error-handler.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/http/error-handler.interceptor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/http/http-cache.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/http/http-cache.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/http/http-cache.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/http/http-cache.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/http/http.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/http/http.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/http/http.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/http/http.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/i18n.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/i18n.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/i18n.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/i18n.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/logger.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/logger.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/logger.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/logger.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/route-reusable-strategy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/route-reusable-strategy.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/until-destroyed.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/until-destroyed.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/core/until-destroyed.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/core/until-destroyed.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/home/home-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/home/home-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/home/home.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/home/home.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/home/home.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/home/home.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/home/home.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/home/home.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/home/home.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/home/home.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/home/home.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/home/home.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/home/quote.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/home/quote.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/home/quote.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/home/quote.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/login/login-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/login/login-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/login/login.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/login/login.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/login/login.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/login/login.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/login/login.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/login/login.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/login/login.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/login/login.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/shared/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/shared/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/shared/loader/loader.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/shared/loader/loader.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/shared/loader/loader.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/shared/loader/loader.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/shared/loader/loader.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/shared/loader/loader.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/shared/loader/loader.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/shared/loader/loader.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/shared/shared.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/shared/shared.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/shell/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/shell/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/shell/header/header.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/shell/header/header.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/shell/header/header.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/shell/header/header.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/shell/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/shell/header/header.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/shell/shell.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/shell/shell.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/shell/shell.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/shell/shell.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/shell/shell.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/shell/shell.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/shell/shell.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/shell/shell.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/shell/shell.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/shell/shell.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/app/shell/shell.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/app/shell/shell.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/environments/environment.prod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/environments/environment.prod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/environments/environment.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/environments/environment.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/hmr.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/hmr.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/polyfills.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/theme/theme-variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/theme/theme-variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/theme/theme.scss" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/theme/theme.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/starter-kit/src/typings.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/starter-kit/src/typings.d.ts" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/starter-kit" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1PBUFJ5YtWKndzDCl2s5LiweX6r" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/starter-kit" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd2f3c97-ef82-4333-80fd-e634dcbe862a" name="Default Changelist" comment="" />
+      <created>1565346877751</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565346877751</updated>
+      <workItem from="1565346878927" duration="330000" />
+      <workItem from="1565347253804" duration="3054000" />
+      <workItem from="1565448815305" duration="30000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/starter-kit" />
+    </ignored-roots>
   </component>
 </project>
