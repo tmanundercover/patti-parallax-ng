@@ -37,6 +37,8 @@
     "jquery": "^3.4.1",
     "popper": "^1.0.1",
     "popper.js": "^1.15.0",
+    "primeicons": "^2.0.0",
+    "primeng": "^8.0.2",
     "rxjs": "^6.5.2",
     "zone.js": "^0.9.1"
   },
