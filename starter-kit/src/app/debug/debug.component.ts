@@ -10,6 +10,12 @@ import { environment } from '@env/environment';
 export class DebugComponent implements OnInit {
   version: string | null = environment.version;
 
+  websitesProvidedServiceDescription: string = 'Websites for small business owners.';
+  webapplicationProvidedServiceDescription: string =
+    'Wide Variety of Web Applications in a plethora of differnt languages.';
+  outsideworkProvidedServiceDescription: string =
+    "Anything Techy I'm involved in that would not fit in the other categories";
+
   constructor() {}
 
   ngOnInit() {}
