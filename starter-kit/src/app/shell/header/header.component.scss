@@ -7,3 +7,13 @@
 .nav-link.dropdown-toggle {
   cursor: pointer;
 }
+
+.nav-item {
+  span {
+    vertical-align: middle;
+  }
+
+  i {
+    margin-right: 8px;
+  }
+}
