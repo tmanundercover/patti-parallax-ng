@@ -3,13 +3,13 @@ $alternateColor: goldenrod;
 $backgroundColor: whitesmoke;
 
 .provided-service-card {
-  width: 300px;
-  height: 300px;
+  min-width: 300px;
+  min-height: 300px;
 
   &.hoverSwitch {
     &:hover {
-      color: $alternateColor;
-      background-color: $mainColor;
+      color: $backgroundColor;
+      background-color: $alternateColor;
     }
   }
 }
