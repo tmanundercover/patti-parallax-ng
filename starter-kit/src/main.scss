@@ -16,6 +16,10 @@
 // Theme customization
 @import "theme/theme";
 
+$mainColor: rgb(36, 36, 36);
+$alternateColor: goldenrod;
+$backgroundColor: whitesmoke;
+
 .inline-block {
   display: inline-block;
 }
