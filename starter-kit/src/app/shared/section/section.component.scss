@@ -1,0 +1,26 @@
+$mainColor: rgb(36, 36, 36);
+$alternateColor: goldenrod;
+$backgroundColor: whitesmoke;
+
+.section {
+  // padding-top:16px;
+  padding-bottom: 64px;
+}
+
+#section-title {
+  font-size: 40px;
+  border-bottom: solid 1px $alternateColor;
+  padding-bottom: 16px;
+  text-align: center;
+  margin-bottom: 32px;
+  margin-top: 16px;
+}
+
+#section-title-container {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+#section-content {
+  margin-top: 64px;
+}
