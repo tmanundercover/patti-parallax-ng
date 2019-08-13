@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-provided-service',
@@ -6,12 +6,24 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./provided-service.component.scss']
 })
 export class ProvidedServiceComponent implements OnInit {
-  @Input() image: string;
-  @Input() name: string;
+  @Input() iconName: string;
+  @Input() description: string;
   @Input() title: string;
-  @Input() bio: string;
+
+  private isDisplayFront: boolean = true;
+  private isDisplayBack: boolean = false;
 
   constructor() {}
 
   ngOnInit() {}
+
+  displayBack() {
+    this.isDisplayBack = true;
+    this.isDisplayFront = false;
+  }
+
+  displayFront() {
+    this.isDisplayBack = false;
+    this.isDisplayFront = true;
+  }
 }

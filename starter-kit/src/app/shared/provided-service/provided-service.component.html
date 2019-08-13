@@ -1,6 +1,16 @@
-<div>
-  <div>image</div>
-  <div>name</div>
-  <div>title</div>
-  <div>description</div>
+<div class="col-sm">
+  <div
+    *ngIf="isDisplayFront"
+    id="provided-service-front"
+    (click)="displayBack()"
+    class="col-12 provided-service-card hoverSwitch"
+  >
+    <div class="col-12 provided-service-icon-front"><i class="fas" [ngClass]="'fa-' + iconName"></i></div>
+    <div class="col-12 provided-service-title-front">{{ title }}</div>
+  </div>
+  <div *ngIf="isDisplayBack" id="provided-service-back" (click)="displayFront()" class="col-12 provided-service-card">
+    <div class="provided-service-back-icon inline-block"><i class="fas" [ngClass]="'fa-' + iconName"></i></div>
+    <div class="provided-service-back-title inline-block">{{ title }}</div>
+    <div class="provided-service-description">{{ description }}</div>
+  </div>
 </div>

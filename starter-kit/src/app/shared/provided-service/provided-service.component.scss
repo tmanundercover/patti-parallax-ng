@@ -1,3 +1,49 @@
-.fa {
-  vertical-align: middle;
+$mainColor: rgb(36, 36, 36);
+$alternateColor: goldenrod;
+$backgroundColor: whitesmoke;
+
+.provided-service-card {
+  width: 300px;
+  height: 300px;
+
+  &.hoverSwitch {
+    &:hover {
+      color: $alternateColor;
+      background-color: $mainColor;
+    }
+  }
+}
+
+#provided-service-front {
+  border: solid 1px $mainColor;
+  text-align: center;
+  padding-top: 66px;
+}
+
+#provided-service-back {
+  border: solid 1px $mainColor;
+}
+
+.provided-service-icon-front {
+  margin-bottom: 16px;
+  font-size: 50px;
+}
+
+.provided-service-title-front {
+  font-size: 24px;
+}
+
+.provided-service-back-icon {
+  margin-right: 8px;
+  font-size: 24px;
+}
+
+.provided-service-back-title {
+  font-weight: bold;
+}
+
+.provided-service-description {
+  border-top: solid 1px $alternateColor;
+  margin-top: 8px;
+  padding-top: 8px;
 }
