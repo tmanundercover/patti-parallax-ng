@@ -7,29 +7,33 @@
   </div>
 </div>
 <app-section title="Services">
-  <div class="container">
-    <div class="row">
-      <app-provided-service
+  <app-three-column-layout [left]="left" [center]="center" [right]="right">
+    <ng-template #left
+      ><app-provided-service
         class="col-4"
         iconName="desktop"
         title="Websites"
         [description]="websitesProvidedServiceDescription"
-      ></app-provided-service>
-      <app-provided-service
+      ></app-provided-service
+    ></ng-template>
+    <ng-template #center
+      ><app-provided-service
         class="col-4"
         iconName="laptop-code"
         title="Web Apps"
         [description]="webapplicationProvidedServiceDescription"
-      ></app-provided-service>
-      <app-provided-service
+      ></app-provided-service
+    ></ng-template>
+    <ng-template #right
+      ><app-provided-service
         class="col-4"
         iconName="brain"
         title="Outside Work"
         [description]="outsideworkProvidedServiceDescription"
-      ></app-provided-service>
-    </div>
-  </div>
+      ></app-provided-service
+    ></ng-template>
+  </app-three-column-layout>
 </app-section>
-<app-section title="Next Section" backgroundColor="whitesmoke">
-  stuff stuff stuff stuff
+<app-section backgroundImage="LASkyline3.jpg" backgroundColor="whitesmoke">
+  <app-quote [quote]="quote1" [author]="author1"></app-quote>
 </app-section>

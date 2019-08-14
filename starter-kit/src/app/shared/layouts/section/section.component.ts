@@ -8,6 +8,7 @@ import { Component, OnInit, Input, HostListener } from '@angular/core';
 export class SectionComponent implements OnInit {
   @Input() title: string;
   @Input() backgroundColor: string = 'white';
+  @Input() backgroundImage: string = '';
 
   constructor() {}
 

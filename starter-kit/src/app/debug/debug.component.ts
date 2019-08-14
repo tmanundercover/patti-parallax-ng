@@ -16,6 +16,8 @@ export class DebugComponent implements OnInit {
   outsideworkProvidedServiceDescription: string =
     "Anything Techy I'm involved in that would not fit in the other categories";
 
+  quote1 = 'Find a quote to live by';
+  author1 = '-Whoeve R. Itis';
   constructor() {}
 
   ngOnInit() {}
