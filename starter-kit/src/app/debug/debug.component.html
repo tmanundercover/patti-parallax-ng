@@ -6,9 +6,22 @@
     <p>DEBUG PAGE TODO: Examples of each component</p>
   </div>
 </div>
+<app-section title="Introduction" backgroundColor="whitesmoke">
+  <app-three-column-layout [left]="leftIntro" [center]="centerIntro" [right]="rightIntro">
+    <ng-template #leftIntro
+      ><app-titled-text-box [title]="organizedIntroTitle" [text]="organizedIntroText"></app-titled-text-box
+    ></ng-template>
+    <ng-template #centerIntro
+      ><app-titled-text-box [title]="resourcefulIntroTitle" [text]="resourcefulIntroText"></app-titled-text-box
+    ></ng-template>
+    <ng-template #rightIntro
+      ><app-titled-text-box [title]="creativeIntroTitle" [text]="creativeIntroText"></app-titled-text-box
+    ></ng-template>
+  </app-three-column-layout>
+</app-section>
 <app-section title="Services">
-  <app-three-column-layout [left]="left" [center]="center" [right]="right">
-    <ng-template #left
+  <app-three-column-layout [left]="leftService" [center]="centerService" [right]="rightService">
+    <ng-template #leftService
       ><app-provided-service
         class="col-4"
         iconName="desktop"
@@ -16,7 +29,7 @@
         [description]="websitesProvidedServiceDescription"
       ></app-provided-service
     ></ng-template>
-    <ng-template #center
+    <ng-template #centerService
       ><app-provided-service
         class="col-4"
         iconName="laptop-code"
@@ -24,7 +37,7 @@
         [description]="webapplicationProvidedServiceDescription"
       ></app-provided-service
     ></ng-template>
-    <ng-template #right
+    <ng-template #rightService
       ><app-provided-service
         class="col-4"
         iconName="brain"
