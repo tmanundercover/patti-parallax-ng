@@ -8,17 +8,28 @@ import { QuoteComponent } from './quote/quote.component';
 import { ThreeColumnLayoutComponent } from './layouts/three-column-layout/three-column-layout.component';
 import { LayoutsModule } from './layouts/layouts.module';
 import { TitledTextBoxComponent } from './titled-text-box/titled-text-box.component';
+import { ContactBlockComponent } from './contact-block/contact-block.component';
+import { ContactFormComponent } from './contact-form/contact-form.component';
 
 @NgModule({
   imports: [CommonModule, LayoutsModule],
-  declarations: [LoaderComponent, ProvidedServiceComponent, QuoteComponent, TitledTextBoxComponent],
+  declarations: [
+    LoaderComponent,
+    ProvidedServiceComponent,
+    QuoteComponent,
+    TitledTextBoxComponent,
+    ContactBlockComponent,
+    ContactFormComponent
+  ],
   exports: [
     LoaderComponent,
     ProvidedServiceComponent,
     SectionComponent,
     QuoteComponent,
     ThreeColumnLayoutComponent,
-    TitledTextBoxComponent
+    TitledTextBoxComponent,
+    ContactBlockComponent,
+    ContactFormComponent
   ]
 })
 export class SharedModule {}
