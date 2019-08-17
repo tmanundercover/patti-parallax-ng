@@ -10,7 +10,6 @@ export class SectionComponent implements OnInit {
   @Input() backgroundColor: string = 'white';
   @Input() backgroundImage: string = '';
   @Input() fontcolor?: string = '';
-  @Input() overlay?: boolean;
 
   constructor() {}
 
