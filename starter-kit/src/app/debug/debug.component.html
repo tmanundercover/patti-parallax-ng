@@ -19,6 +19,9 @@
     ></ng-template>
   </app-three-column-layout>
 </app-section>
+<app-section backgroundImage="LASkyline3.jpg" backgroundColor="whitesmoke">
+  <app-quote [quote]="quote1" [author]="author1"></app-quote>
+</app-section>
 <app-section title="Services">
   <app-three-column-layout [left]="leftService" [center]="centerService" [right]="rightService">
     <ng-template #leftService
@@ -47,6 +50,7 @@
     ></ng-template>
   </app-three-column-layout>
 </app-section>
-<app-section backgroundImage="LASkyline3.jpg" backgroundColor="whitesmoke">
-  <app-quote [quote]="quote1" [author]="author1"></app-quote>
+<app-section title="Work with Me?" backgroundImage="parallax-contact.jpg" fontcolor="white" overlay="true">
+  <app-contact-block class="col-6"></app-contact-block>
+  <app-contact-form class="col-6"></app-contact-form>
 </app-section>

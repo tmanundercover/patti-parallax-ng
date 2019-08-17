@@ -1,8 +1,9 @@
 <div
   class="ui-g-12 ui-md-12 section"
   [ngStyle]="{
-    background: '#fff url(' + 'assets/' + backgroundImage + ') no-repeat 0 -200px',
-    'background-color': backgroundColor ? backgroundColor : 'white'
+    'background-image': 'url(' + 'assets/' + backgroundImage + ')',
+    'background-color': backgroundColor ? backgroundColor : overlay ? rgba(0, 0, 0, 0.5) : 'white',
+    color: fontcolor ? fontcolor : 'black'
   }"
 >
   <div *ngIf="title" id="section-title-container">
