@@ -10,8 +10,8 @@ export class ProvidedServiceComponent implements OnInit {
   @Input() description: string;
   @Input() title: string;
 
-  private isDisplayFront: boolean = true;
-  private isDisplayBack: boolean = false;
+  public isDisplayFront: boolean = true;
+  public isDisplayBack: boolean = false;
 
   constructor() {}
 
