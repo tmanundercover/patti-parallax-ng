@@ -27,3 +27,13 @@ $backgroundColor: whitesmoke;
 .fas {
   vertical-align: middle;
 }
+
+a {
+  color: rgb(254, 126, 23);
+}
+
+a:hover {
+  transition: 1s;
+  color: whitesmoke;
+  text-decoration: none;
+}
