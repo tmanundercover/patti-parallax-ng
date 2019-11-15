@@ -44,7 +44,7 @@ export class ContextMenuDirective implements MyContextMenuInterface {
     $event.preventDefault();
 
     /**
-     * adds this context menu to the menu with this ID.
+     * indicates which item was selected
      */
     this.contextMenuService.setNewContextMenu(this.contextMenuTitle);
   }
