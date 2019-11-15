@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-
 import { environment } from '@env/environment';
 
 @Component({
@@ -19,6 +18,13 @@ export class DebugComponent implements OnInit {
   creativeIntroText =
     "Creativity is a great talent to harness. I have harness the power of the castle of Grey Skull. That's from a cartoon that's old AF.";
 
+  aboutTitle = 'FrontEnd.';
+  aboutText =
+    'A few years ago I made a concerted push towards moving from backend development to frontend development. Frontend development is blah blah bloah lorem sorta ipsum situation. Since then...';
+  angularValue = '83';
+  awsValue = '67';
+  sassValue = '80';
+
   websitesProvidedServiceDescription: string = 'Websites for small business owners.';
   webapplicationProvidedServiceDescription: string =
     'Wide Variety of Web Applications in a plethora of differnt languages.';
@@ -27,6 +33,8 @@ export class DebugComponent implements OnInit {
 
   quote1 = 'Find a quote to live by';
   author1 = '-Whoeve R. Itis';
+
+  items = [{ title: 'Slide 1' }, { title: 'Slide 2' }, { title: 'Slide 3' }];
 
   constructor() {}
 

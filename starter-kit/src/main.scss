@@ -12,12 +12,15 @@
 @import "~@fortawesome/fontawesome-free/scss/brands.scss";
 @import "~@fortawesome/fontawesome-free/scss/regular.scss";
 @import "~@fortawesome/fontawesome-free/scss/solid.scss";
+@import "primeng/resources/primeng.min.css";
+@import "primeng/resources/themes/nova-light/theme.css";
+@import "primeicons/primeicons.css";
 
 // Theme customization
 @import "theme/theme";
 
 $mainColor: rgb(36, 36, 36);
-$alternateColor: goldenrod;
+$alternateColor: rgb(254, 126, 23);
 $backgroundColor: whitesmoke;
 
 .inline-block {
@@ -29,12 +32,12 @@ $backgroundColor: whitesmoke;
 }
 
 a {
-  color: rgb(254, 126, 23);
+  color: $alternateColor !important;
 }
 
 a:hover {
   transition: 1s;
-  color: whitesmoke;
+  color: whitesmoke !important;
   text-decoration: none;
 }
 
@@ -43,4 +46,8 @@ select:focus,
 textarea:focus,
 button:focus {
   outline: none;
+}
+
+.ui-progressbar-value {
+  background-color: $alternateColor !important;
 }

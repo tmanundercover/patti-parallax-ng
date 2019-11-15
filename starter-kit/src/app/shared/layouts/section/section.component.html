@@ -6,10 +6,11 @@
     color: fontcolor ? fontcolor : 'black'
   }"
 >
-  <div *ngIf="title" id="section-title-container">
+  <div *ngIf="isDisplayTitle" id="section-title-container">
     <div id="section-title">{{ title }}</div>
   </div>
   <div id="section-content">
     <ng-content></ng-content>
   </div>
+  <div #contextMenu></div>
 </div>

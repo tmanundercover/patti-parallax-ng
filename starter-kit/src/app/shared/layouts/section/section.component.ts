@@ -1,4 +1,5 @@
-import { Component, OnInit, Input, HostListener } from '@angular/core';
+import { Component, OnInit, Input, HostListener, ViewChild, ElementRef } from '@angular/core';
+import { MenuItem } from 'primeng/api';
 
 @Component({
   selector: 'app-section',
@@ -7,11 +8,18 @@ import { Component, OnInit, Input, HostListener } from '@angular/core';
 })
 export class SectionComponent implements OnInit {
   @Input() title: string;
+  @Input() isDisplayTitle: boolean = false;
   @Input() backgroundColor: string = 'white';
   @Input() backgroundImage: string = '';
   @Input() fontcolor?: string = '';
 
-  constructor() {}
+  private _id: string;
+  constructor(private el: ElementRef<SectionComponent>) {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    this._id = this.el.nativeElement.title;
+  }
+  getSectionId() {
+    return this._id;
+  }
 }

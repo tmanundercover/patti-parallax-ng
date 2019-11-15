@@ -17,6 +17,10 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { DebugModule } from './debug/debug.module';
 
+/** These are the primeNG modules that will need to be wrapped at some point */
+import { ContextMenuModule } from 'primeng/contextmenu';
+import { ProgressBarModule } from 'primeng/progressbar';
+
 @NgModule({
   imports: [
     BrowserModule,
@@ -32,6 +36,8 @@ import { DebugModule } from './debug/debug.module';
     AboutModule,
     LoginModule,
     DebugModule,
+    ContextMenuModule,
+    ProgressBarModule,
     AppRoutingModule // must be imported as the last module as it contains the fallback route
   ],
   declarations: [AppComponent],
