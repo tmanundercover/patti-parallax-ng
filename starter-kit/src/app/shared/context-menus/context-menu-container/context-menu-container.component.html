@@ -1,3 +1,11 @@
 <!-- This is to abstract the primeng context menu 
     in case I want to change display frameworks -->
-<p-contextMenu [global]="true" [model]="items"></p-contextMenu>
+<ng-container *ngIf="contextMenuService.currentSectionTitle">
+  <p-contextMenu
+    [global]="true"
+    [model]="items"
+    (onHide)="contextMenuService.resetContextMenu()"
+    (onClick)="contextMenuService.resetContextMenu()"
+  >
+  </p-contextMenu>
+</ng-container>

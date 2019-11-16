@@ -1,4 +1,4 @@
-import { Injectable, EventEmitter, HostListener, ElementRef } from '@angular/core';
+import { Injectable, EventEmitter, HostListener, ElementRef, OnDestroy } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, of } from 'rxjs';
 import { map, catchError } from 'rxjs/operators';
@@ -9,11 +9,11 @@ import { SectionComponent } from '../layouts/section/section.component';
   providedIn: 'root'
 })
 export class ContextMenuService {
-  private _items: MenuItem[][] = [];
-  public currentSectionTitle: string;
+  private _allContextMenus: MenuItem[][] = [];
+  public currentSectionTitle: string = undefined;
 
   public get currentItems(): MenuItem[] {
-    return this._items[this.currentSectionTitle];
+    return this._allContextMenus[this.currentSectionTitle];
   }
 
   constructor() {}
@@ -21,27 +21,36 @@ export class ContextMenuService {
   public setNewContextMenu(contextMenuTitle: string) {
     this.currentSectionTitle = contextMenuTitle;
   }
+
   public getMenuItems(title: string): MenuItem[] {
-    if (this._items[title]) {
-      return this._items[title];
+    if (this._allContextMenus[title]) {
+      return this._allContextMenus[title];
     }
     return [];
+  }
+
+  /**
+   * Resets the Context Menu Module
+   */
+  public resetContextMenu() {
+    console.log('resetting module');
+    this.currentSectionTitle = undefined;
   }
 
   public addContextMenuItems(incomingItems: MenuItem[], contextMenuTitle: string) {
     // let title = this.el.nativeElement.title;
 
-    console.log('adding to context menu ', contextMenuTitle, incomingItems, this._items);
-    if (!this._items[contextMenuTitle]) {
-      this._items[contextMenuTitle] = [];
+    console.log('adding to context menu ', contextMenuTitle, incomingItems, this._allContextMenus);
+    if (!this._allContextMenus[contextMenuTitle]) {
+      this._allContextMenus[contextMenuTitle] = [];
     }
 
-    if (this._items[contextMenuTitle].length > 0) {
-      this._items[contextMenuTitle].push({ separator: true });
+    if (this._allContextMenus[contextMenuTitle].length > 0) {
+      this._allContextMenus[contextMenuTitle].push({ separator: true });
     }
 
     incomingItems.forEach(i => {
-      this._items[contextMenuTitle].push(i);
+      this._allContextMenus[contextMenuTitle].push(i);
     });
   }
 
