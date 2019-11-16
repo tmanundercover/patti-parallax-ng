@@ -33,14 +33,10 @@ export class ContextMenuService {
    * Resets the Context Menu Module
    */
   public resetContextMenu() {
-    console.log('resetting module');
     this.currentSectionTitle = undefined;
   }
 
   public addContextMenuItems(incomingItems: MenuItem[], contextMenuTitle: string) {
-    // let title = this.el.nativeElement.title;
-
-    console.log('adding to context menu ', contextMenuTitle, incomingItems, this._allContextMenus);
     if (!this._allContextMenus[contextMenuTitle]) {
       this._allContextMenus[contextMenuTitle] = [];
     }

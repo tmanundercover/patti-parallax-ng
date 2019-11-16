@@ -23,7 +23,6 @@ export class ContextMenuDirective implements MyContextMenuInterface {
    * adds the menu items to the context menu for this context menu
    */
   public set contextMenuItems(menuItems: MenuItem[]) {
-    console.log('menu items set', menuItems);
     this.contextMenuService.setItems(menuItems, this.contextMenuTitle);
   }
 
@@ -33,9 +32,7 @@ export class ContextMenuDirective implements MyContextMenuInterface {
    * @param contextMenuTitle the unique ID of the context menu to add
    *                         these items to
    */
-  constructor(private contextMenuService: ContextMenuService, public contextMenuTitle: string) {
-    console.log('directive on ', this.contextMenuTitle, this.contextMenuItems);
-  }
+  constructor(private contextMenuService: ContextMenuService, public contextMenuTitle: string) {}
 
   /**
    * changes the context menu that is currently being viewed when the user clicks
@@ -46,7 +43,6 @@ export class ContextMenuDirective implements MyContextMenuInterface {
   onContextMenu($event: MouseEvent) {
     $event.preventDefault();
 
-    console.log('clicked section', this.contextMenuTitle, this);
     /**
      * indicates which item was selected
      */
