@@ -1,4 +1,4 @@
-import { Component, OnDestroy } from '@angular/core';
+import { Component } from '@angular/core';
 import { ContextMenuService } from '../context-menu.service';
 
 /**
@@ -19,8 +19,5 @@ export class ContextMenuContainerComponent {
     return this.contextMenuService.currentItems;
   }
 
-  checkExistence() {
-    console.log('checkexistenc on container');
-  }
   constructor(private contextMenuService: ContextMenuService) {}
 }
