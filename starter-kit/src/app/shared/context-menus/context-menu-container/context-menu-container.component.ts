@@ -19,5 +19,13 @@ export class ContextMenuContainerComponent {
     return this.contextMenuService.currentItems;
   }
 
+  public get currentSectionTitle() {
+    return this.contextMenuService.currentSectionTitle;
+  }
+
   constructor(private contextMenuService: ContextMenuService) {}
+
+  public resetContextMenu() {
+    this.contextMenuService.resetContextMenu();
+  }
 }

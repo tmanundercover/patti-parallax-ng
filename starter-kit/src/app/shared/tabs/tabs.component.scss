@@ -1,3 +1,7 @@
-.ui-tabview-panels {
-  height: 100px;
+:host {
+  ::ng-deep {
+    .ui-tabview-panels {
+      height: 425px;
+    }
+  }
 }
