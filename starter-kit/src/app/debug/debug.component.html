@@ -5,31 +5,20 @@
 
 <ng-template #experience>
   <app-section
-    title="Info"
+    title="Experience"
     [isDisplayTitle]="false"
     backgroundColor="whitesmoke"
     appsectiontextediting
     appsectionimageediting
   >
-    <div class="container-fluid">
-      <div class="jumbotron text-center">
-        <h1>
-          <span translate>APP_NAME</span>
-        </h1>
-        <p>DEBUG PAGE TODO: Examples of each component</p>
-      </div>
+    <div *ngFor="let experience of experiences">
+      <app-experience [experience]="experience"></app-experience>
     </div>
   </app-section>
 </ng-template>
 
 <ng-template #education>
-  <app-section
-    title="Introduction"
-    [isDisplayTitle]="false"
-    [isDisplayTitle]="true"
-    backgroundColor="whitesmoke"
-    appsectionimageediting
-  >
+  <app-section title="Education" [isDisplayTitle]="false" backgroundColor="whitesmoke" appsectionimageediting>
     <app-three-column-layout [left]="leftIntro" [center]="centerIntro" [right]="rightIntro">
       <ng-template #leftIntro>
         <app-titled-text-box [title]="organizedIntroTitle" [text]="organizedIntroText"></app-titled-text-box>

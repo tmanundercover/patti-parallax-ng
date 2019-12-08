@@ -1,0 +1,12 @@
+<div class="jobTitle">{{ experience.title }}</div>
+<div class="jobCompany">{{ experience.company }}</div>
+<div class="jobDates">{{ experience.dates.start }} - {{ experience.dates.end }}</div>
+<div class="jobLocation">{{ experience.location.city }}, {{ experience.location.state }}</div>
+<div *ngIf="!isDetailBullets" class="jobDuties">{{ experience.dutiesDescription }}</div>
+<div *ngIf="isDetailBullets" class="jobDuties">
+  <ul>
+    <div *ngFor="let dutyDescription of experience.dutiesDescription">
+      <li>{{ dutyDescription }}</li>
+    </div>
+  </ul>
+</div>

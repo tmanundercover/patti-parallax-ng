@@ -21,6 +21,8 @@ import { ContextMenuService } from './context-menus/context-menu.service';
 import { ContextMenuDirective } from './context-menus/context-menu.directive';
 import { SectionImageEditingDirective } from './context-menus/section-image-editing/section-image-editing.directive';
 import { CategoryTabsComponent } from './tabs/tabs.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { ExperienceInterface } from './experience/experience.interface';
 
 @NgModule({
   imports: [CommonModule, LayoutsModule, ContextMenuModule, BrowserAnimationsModule, TabViewModule],
@@ -35,7 +37,8 @@ import { CategoryTabsComponent } from './tabs/tabs.component';
     ContextMenuContainerComponent,
     ContextMenuDirective,
     SectionImageEditingDirective,
-    CategoryTabsComponent
+    CategoryTabsComponent,
+    ExperienceComponent
   ],
   exports: [
     LoaderComponent,
@@ -51,7 +54,8 @@ import { CategoryTabsComponent } from './tabs/tabs.component';
     SectionTextEditingDirective,
     ContextMenuDirective,
     SectionImageEditingDirective,
-    CategoryTabsComponent
+    CategoryTabsComponent,
+    ExperienceComponent
   ],
   providers: [ContextMenuService],
   entryComponents: [ContextMenuContainerComponent]

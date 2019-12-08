@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { environment } from '@env/environment';
+import { ExperienceInterface } from '@app/shared/experience/experience.interface';
 
 @Component({
   selector: 'app-debug',
@@ -35,6 +36,30 @@ export class DebugComponent implements OnInit {
   author1 = '-Whoeve R. Itis';
 
   items = [{ title: 'Slide 1' }, { title: 'Slide 2' }, { title: 'Slide 3' }];
+
+  experiences: ExperienceInterface[] = [
+    {
+      title: 'Job Title',
+      location: { city: 'city', state: 'State' },
+      dutiesDescription: ["Details 1 Lorem epsom that's not really ", 'Detail 2 how you spell Lorem ipsum is irrell'],
+      dates: { start: new Date(), end: new Date() },
+      company: 'Company'
+    },
+    {
+      title: 'Job Title2',
+      location: { city: 'city', state: 'State' },
+      dutiesDescription: "Details 1 Lorem epsom that's not really ",
+      dates: { start: new Date(), end: new Date() },
+      company: 'Company'
+    },
+    {
+      title: 'Job Title',
+      location: { city: 'city', state: 'State' },
+      dutiesDescription: ["Details 1 Lorem epsom that's not really ", 'Detail 2 how you spell Lorem ipsum is irrell'],
+      dates: { start: new Date(), end: new Date() },
+      company: 'Company'
+    }
+  ];
 
   constructor() {}
 
