@@ -1,7 +1,44 @@
 :host {
   ::ng-deep {
     .ui-tabview-panels {
-      height: 425px;
+      height: 100%;
+      width: 100%;
+      right: 0px;
+      padding: 0 !important;
+      position: absolute;
+      border-width: 0px;
+    }
+
+    .ui-tabview.ui-tabview-top .ui-tabview-nav li.ui-state-active {
+      background-color: rgb(255, 255, 255);
+    }
+
+    .educationStyle {
+      .ui-tabview-panels {
+        background-color: #001f3f;
+        color: #39cccc;
+      }
+    }
+
+    .experienceStyle {
+      .ui-tabview-panels {
+        background-color: #ff4136;
+        color: #000000;
+      }
+    }
+
+    .contactMeStyle {
+      .ui-tabview-panels {
+        background-color: #ff851b;
+        color: #111111;
+      }
+    }
+
+    .skillsStyle {
+      .ui-tabview-panels {
+        background-color: #2ecc40;
+        color: #001f3f;
+      }
     }
   }
 }

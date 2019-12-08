@@ -1,11 +1,14 @@
 <p-tabView>
-  <p-tabPanel header="Header 1">
-    Content 1
+  <p-tabPanel class="educationStyle" header="Education">
+    <ng-container *ngTemplateOutlet="educationTab"></ng-container>
   </p-tabPanel>
-  <p-tabPanel header="Header 2">
-    Content 2
+  <p-tabPanel class="skillsStyle" header="Skills">
+    <ng-container *ngTemplateOutlet="skillsTab"></ng-container>
   </p-tabPanel>
-  <p-tabPanel header="Header 3">
-    Content 3
+  <p-tabPanel class="experienceStyle" header="Experience">
+    <ng-container *ngTemplateOutlet="experienceTab"></ng-container>
+  </p-tabPanel>
+  <p-tabPanel class="contactMeStyle" header="Contact Me">
+    <ng-container *ngTemplateOutlet="contactMeTab"></ng-container>
   </p-tabPanel>
 </p-tabView>
