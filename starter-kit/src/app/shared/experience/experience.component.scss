@@ -5,6 +5,7 @@
 
 .jobCompany {
   font-size: 18px;
+  margin-top: -8px;
 }
 
 .jobDates {
@@ -13,4 +14,12 @@
 
 .jobLocation {
   font-size: 12px;
+}
+
+.experience-container {
+  display: block;
+  padding: 16px 24px;
+  background-color: white;
+  margin: 4px;
+  // width:100%;
 }

@@ -8,7 +8,7 @@ import { ExperienceInterface } from './experience.interface';
 })
 export class ExperienceComponent implements OnInit {
   @Input() experience: ExperienceInterface;
-  @Input() isDetailBullets: Boolean = false;
+  private isDetailBullets: Boolean = false;
 
   constructor() {}
 
