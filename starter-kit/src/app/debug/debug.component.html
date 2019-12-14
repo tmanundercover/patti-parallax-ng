@@ -2,7 +2,7 @@
 </app-tabs>
 
 <ng-template #experience>
-  <app-section title="Experience" [isDisplayTitle]="false" backgroundColor="whitesmoke">
+  <app-section title="Experience" [isDisplayTitle]="true" backgroundColor="whitesmoke">
     <div *ngFor="let experience of experiences" class="an-Experience">
       <app-experience [experience]="experience"></app-experience>
     </div>
@@ -42,38 +42,39 @@
 
 <ng-template #skills>
   <app-section title="Services" [isDisplayTitle]="false" appsectiontextediting appsectionimageediting>
-    <app-three-column-layout [left]="leftService" [center]="centerService" [right]="rightService">
-      <ng-template #leftService>
-        <app-provided-service
-          class="col-4"
-          iconName="desktop"
-          title="Operating Systems"
-          [description]="websitesProvidedServiceDescription"
-        ></app-provided-service>
-      </ng-template>
-      <ng-template #centerService>
-        <app-provided-service
-          class="col-4"
-          iconName="globe"
-          title="Browser"
-          [description]="webapplicationProvidedServiceDescription"
-        ></app-provided-service>
-      </ng-template>
-      <ng-template #rightService>
-        <app-provided-service
-          class="col-4"
-          iconName="code"
-          title="Javascript"
-          [description]="outsideworkProvidedServiceDescription"
-        ></app-provided-service>
-      </ng-template>
-    </app-three-column-layout>
-    <app-provided-service
-      class="col-4"
-      iconName="list"
-      title="Languages"
-      [description]="outsideworkProvidedServiceDescription"
-    ></app-provided-service>
+    <div class="container">
+      <app-three-column-layout [left]="leftService" [center]="centerService" [right]="rightService">
+        <ng-template #leftService>
+          <app-provided-service
+            iconName="desktop"
+            title="Operating Systems"
+            [description]="websitesProvidedServiceDescription"
+          ></app-provided-service>
+        </ng-template>
+        <ng-template #centerService>
+          <app-provided-service
+            iconName="globe"
+            title="Browser"
+            [description]="webapplicationProvidedServiceDescription"
+          >
+          </app-provided-service>
+        </ng-template>
+        <ng-template #rightService>
+          <app-provided-service
+            iconName="code"
+            title="Javascript"
+            [description]="outsideworkProvidedServiceDescription"
+          >
+          </app-provided-service>
+        </ng-template>
+      </app-three-column-layout>
+      <app-three-column-layout [center]="secondrowcenterService">
+        <ng-template #secondrowcenterService>
+          <app-provided-service iconName="list" title="Languages" [description]="outsideworkProvidedServiceDescription">
+          </app-provided-service>
+        </ng-template>
+      </app-three-column-layout>
+    </div>
   </app-section>
 </ng-template>
 
